@@ -1,0 +1,54 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock for libraries
+Cargo.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Test coverage
+*.profraw
+*.profdata
+/coverage/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
